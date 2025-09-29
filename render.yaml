@@ -16,7 +16,7 @@ services:
     sizeGB: 1
   envVars:
   - key: MINIO_ROOT_USER
-    generateValue: true
+    value: rtbadmin
   - key: MINIO_ROOT_PASSWORD
     generateValue: true
   - key: HOST
